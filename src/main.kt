@@ -6,7 +6,8 @@ fun main() {
     }
 
     fun firstCard(start: Int, end: Int): IntRange {
-        
+        // create first card from value 1(ace) 2 -> 10 is numeric values
+        // 11-15 are face values
     }
 
 
