@@ -3,24 +3,28 @@ fun main() {
             "♥", "♠", "♦", "♣"
     )
 
-    var card = 0
+//    var card = card.random(1..13)
 
-    when (card) {
-        0 -> null
-        1 -> 11 //ace
-        2 -> 2
-        3 -> 3
-        4 -> 4
-        5 -> 5
-        6 -> 6
-        7 -> 7
-        8 -> 8
-        9 -> 9
-        10 -> 10
-        11 -> 10 //jack
-        12 -> 10 //queen
-        13 -> 10 //king
-    }
+    val randomValues = List(10) { Random.nextInt(0, 100) }
+// prints new sequence every time
+    println(randomValues)
+
+//    when (card) {
+//        0 -> null
+//        1 -> 11 //ace
+//        2 -> 2
+//        3 -> 3
+//        4 -> 4
+//        5 -> 5
+//        6 -> 6
+//        7 -> 7
+//        8 -> 8
+//        9 -> 9
+//        10 -> 10
+//        11 -> 10 //jack
+//        12 -> 10 //queen
+//        13 -> 10 //king
+//    }
 
 //    fun createDeck() {
 //        // create a deck 1 to King with 4 different suits
