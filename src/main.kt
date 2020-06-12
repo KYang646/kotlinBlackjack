@@ -1,13 +1,13 @@
 fun main() {
-    val suits: Array<String> = arrayOf(
-            "♥", "♠", "♦", "♣"
-    )
+//    val suits: Array<String> = arrayOf(
+//            "♥", "♠", "♦", "♣"
+//    )
 
 //    var card = card.random(1..13)
 
-    val randomValues = List(10) { Random.nextInt(0, 100) }
+//    val randomValues = List(10) { Random.nextInt(0, 100) }
 // prints new sequence every time
-    println(randomValues)
+//    println(randomValues)
 
 //    when (card) {
 //        0 -> null
